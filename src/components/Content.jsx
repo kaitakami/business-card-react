@@ -8,7 +8,9 @@ const Content = () => {
         <img src={profilePhoto} alt="profile photo" className="header-image" />
         <h1 className="header-title">Kai Takami</h1>
         <p className="header-position">Full Stack Developer</p>
-        <p className="header-website"><a href="https://kaitakami.com">kaitakami.com</a></p>
+        <p className="header-website">
+          <a href="https://kaitakami.com">kaitakami.com</a>
+        </p>
         <div className="header-buttons">
           <a className="header-button email-button">
             <svg
@@ -22,7 +24,10 @@ const Content = () => {
             <p>Email</p>
           </a>
 
-          <a className="header-button linkedin-button" href="https://www.linkedin.com/in/kaitakami/">
+          <a
+            className="header-button linkedin-button"
+            href="https://www.linkedin.com/in/kaitakami/"
+          >
             <svg
               role="img"
               viewBox="0 0 24 24"
